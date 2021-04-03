@@ -1,0 +1,108 @@
+BLU-HQ = pl_thundermountain
+	starts = B
+	isupgraded = 1
+	building = hq
+	has_navmesh = 0
+RED-HQ = pl_goldrush
+	starts = R
+	isupgraded = 0
+	building = hq
+	has_navmesh = 1
+1 = koth_viaduct
+	starts = B
+	has_navmesh = 1
+2 = arena_offblast_final
+	cancap 0
+	has_navmesh = 0
+3 = cp_gravelpit
+	starts = B
+	isupgraded = 0
+	has_navmesh = 0
+	hasgravel = 1
+4 = pl_badwater
+	starts = B
+	isupgraded 1
+	building = bootcamp
+	has_navmesh = 0
+5 = cp_gorge
+	starts = B
+	isupgraded 0
+	upgradesto = cp_5gorge
+	has_navmesh = 1
+6 = cp_freight_final1
+	starts = N
+	has_navmesh = 0
+7 = arena_ravine
+	cancap 0
+	has_navmesh = 0
+8 = cp_yukon_final
+	has_navmesh = 0
+9 = arena_badlands
+	starts_neutral
+	owned_koth
+	upgradesto_cp
+	has_navmesh = 0
+10 = koth_highpass
+	starts = N
+	has_navmesh = 0
+	hasgravel = 1
+11 = arena_well
+	starts_neutral
+	owned_cp
+	has_ctf 1
+	has_navmesh = 0
+12 = koth_bagel
+	has_navmesh = 0
+	hasgravel = 1
+	iscustom = 1
+	link = workshop/2056802978
+13 = cp_gullywash_final1
+	has_navmesh = 0
+14 = arena_nucleus
+	starts = N
+	onwed_koth
+	has_navmesh = 0
+	hasgravel = 1
+15 = arena_2fort
+	starts_neutral
+	has_ctf 1
+	upgradesto = koth
+	has_navmesh = 0
+	iscustom = 1
+	link = workshop/2134517733
+16 = koth_basalt
+	starts = N
+	has_navmesh = 1
+	iscustom = 1
+	link = https://tf2maps.net/downloads/basalt.606/download?version=613 
+17 = pl_upward
+	starts = R
+	isupgraded 1
+	building = bootcamp
+	has_navmesh = 0
+18 = koth_trenchfoot_ab1
+	starts = N
+	has_navmesh = 0
+	hasgravel = 1
+	iscustom = 1 
+	link = workshop/731436616
+19 = arena_hardhat
+	cancap = 0
+	has_navmesh = 0
+	iscustom = 1
+	link = https://tf2maps.net/downloads/hardhat.691/download?version=714
+20 = cp_junction_final
+	starts = R
+	isupgraded 0
+	has_navmesh = 0
+	hasgravel = 1
+21 = cp_dustbowl
+	starts = R
+	isupgraded = 0
+	has_navmesh = 1
+22 = cp_furnacepoint
+	starts = N
+	has_navmesh = 0
+	iscustom = 1
+	link = workshop/454147907
+
