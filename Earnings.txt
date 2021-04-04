@@ -1,5 +1,0 @@
-Arena = 50
-KOTH = 100
-Control Points = 200
-Attack/Defend = 250
-Payload = 300
