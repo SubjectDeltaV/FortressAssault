@@ -1,0 +1,33 @@
+FORTRESS ASSAULT
+Tabletop Simulator (12.4.2)
+Team Fortress 2 (Current)
+Version 0.1.3
+Beta 1.3
+NO RELEASE
+
+FILELIST (TODO: Document Files)
+
+NOTES:
+		-Starting Unlocked Classes will now be: Soldier, Pyro, Demoman
+		-Previous method of "Bundling" Classes together for research is now deprecated, each class will be researched individually. 
+		-The Field Medic has been added to the game
+		-The Field Hospital has been added to the game
+		-Doubled most income sources
+		-Fort Build cost has been halved, now costs $250
+		-Research Base cost has been halved, now costs $250
+		-Research Tiles will no longer be owned
+		-Fixed Typo in Blue Squad Builder board
+		-Created Rulebook document
+		-Eliminated Skirmish Battles: Field units will now be automatically destroyed if they encounter resistance
+		-Classlocks have been implemented, class switching mid round is now forbidden (see rulebook for exceptions)
+		-Added the following plugins [server only]
+			-Metamod:Source
+			-Sourcemod
+			-TF2Items
+			-TF2Items giveweapons
+			NOTE: These are to allow custom control over bot equipment
+			NOTENOTE: These are disabled by default
+		-Fixed incorrect ip address in fa.cfg
+		-All bot scripts have been reset to defaults
+		-Overhauled most scripts to allow rcon control and add in lots of notes
+		-Added in TTS Save, this will have to go in a different spot from the game files
