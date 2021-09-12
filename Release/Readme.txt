@@ -69,3 +69,45 @@ USAGE:
 	2) Use the standard files to create new squads. It's recomended you copy the standard configs
 	and rename as you desire to keep the defaults in
 	3) Update fa_start.cfg with the 2 squads to be used in the upcoming battle and any additional settings you want to tweak for the match
+
+CHANGELOG:
+Beta 1.0
+	Started Changelog 
+	1.1
+		-First Base Upgrade is now half off
+		-Squads can now build bases
+		-Made slight edits to badwater:
+			-Research Tiles now start owned
+			-Both tiles are accesible within three turns after purchasing an engie
+	1.2
+		-Created base file package
+		-fa.cfg can now be used to connect directly to this comp
+		-added bot cfgs to files
+Beta 2.0
+		-Starting Unlocked Classes will now be: Soldier, Pyro, Demoman
+		-Previous method of "Bundling" Classes together for research is now deprecated, each class will be researched individually. 
+		-The Field Medic has been added to the game
+		-The Field Hospital has been added to the game
+		-Doubled most income sources
+		-Fort Build cost has been halved, now costs $250
+		-Research Base cost has been halved, now costs $250
+		-Research Tiles will no longer be owned
+		-Fixed Typo in Blue Squad Builder board
+		-Created Rulebook document
+		-Eliminated Skirmish Battles: Field units will now be automatically destroyed if they encounter resistance
+		-Classlocks have been implemented, class switching mid round is now forbidden (see rulebook for exceptions)
+		-Added the following plugins [server only]
+			-Metamod:Source
+			-Sourcemod
+			-TF2Items
+			-TF2Items giveweapons
+			NOTE: These are to allow custom control over bot equipment
+		-Fixed incorrect ip address in fa.cfg
+		-winlimit removed from fa_setup, in favor of having a default in server config and overides in map configs
+		-All bot scripts have been reset to defaults
+		-Overhauled most scripts to allow rcon control and add in lots of notes
+		2.1
+			-Migrated to GitHub
+			-Adopted Semantic Versioning
+			2.1.1
+				-Removed Un-authorized redistribution of SourceMod & MetaMod, users wishing to host will need to install these on the server to host
