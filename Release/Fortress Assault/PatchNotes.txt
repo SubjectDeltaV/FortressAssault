@@ -1,9 +1,8 @@
 FORTRESS ASSAULT
 Tabletop Simulator (12.4.2)
 Team Fortress 2 (Current)
-Version 0.1.3
-Beta 1.3
-NO RELEASE
+Release 2.1.2
+PRIVATE RELEASE
 
 FILELIST (TODO: Document Files)
 
@@ -20,14 +19,5 @@ NOTES:
 		-Created Rulebook document
 		-Eliminated Skirmish Battles: Field units will now be automatically destroyed if they encounter resistance
 		-Classlocks have been implemented, class switching mid round is now forbidden (see rulebook for exceptions)
-		-Added the following plugins [server only]
-			-Metamod:Source
-			-Sourcemod
-			-TF2Items
-			-TF2Items giveweapons
-			NOTE: These are to allow custom control over bot equipment
-			NOTENOTE: These are disabled by default
-		-Fixed incorrect ip address in fa.cfg
 		-All bot scripts have been reset to defaults
 		-Overhauled most scripts to allow rcon control and add in lots of notes
-		-Added in TTS Save, this will have to go in a different spot from the game files
