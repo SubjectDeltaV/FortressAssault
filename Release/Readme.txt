@@ -10,7 +10,6 @@ TLDR: extract or copy the "tf" folder from this archives "Team Fortress 2" folde
 2) Copy the "tf" folder (inside of the Team Fortress 2 Folder)
 3) Locate TF2 in your Steam Library. From the list; "right click/manage/browse local files"
 4) Paste the "tf" folder in the folder that pops up
-NOTE: If you already have METAMOD installed for TF2, you'll want to skip any file overwrites or delete the ADDON folder being copied before continueing
 5) Locate your My Games (usually in Documents) [NOT the installation folder through steam]
 6) Paste the "Tabletop Simulator" folder into the "My Games" folder
 
@@ -36,7 +35,7 @@ NOTE: If you already have METAMOD installed for TF2, you'll want to skip any fil
 
 USAGE:
 	CLIENT:
-	1) Open up the console and enter 'exec fa'
+	1) Open up the console and enter 'exec fa,'this will automatically connect you directly to the server for matches
 	2) That's it, that's all you need to do
 
 	HOST:
@@ -111,3 +110,5 @@ Beta 2.0
 			-Adopted Semantic Versioning
 			2.1.1
 				-Removed Un-authorized redistribution of SourceMod & MetaMod, users wishing to host will need to install these on the server to host
+			2.1.2
+				-Updated Scripts and files to reflect removal of mod from files
