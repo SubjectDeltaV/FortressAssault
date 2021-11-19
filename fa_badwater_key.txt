@@ -35,7 +35,7 @@ RED-HQ = pl_goldrush
 7 = arena_ravine
 	cancap 0
 	has_navmesh = 0
-8 = cp_yukon_final
+8 = cp_mountainlab
 	has_navmesh = 0
 9 = arena_badlands
 	starts_neutral
